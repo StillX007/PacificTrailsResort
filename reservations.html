@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, intitial-scale-1.0" />
+    <meta
+      name="description"
+      content="Make a reservation today. We offer 24/7 support and want you to be the best you. Schedule for a tour or book a trip with the ease of a filling our form."
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="pacific.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/png" />
+    <script
+      src="https://kit.fontawesome.com/8abc2a53a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="content">
+    <div id="wrapper">
+      <!-- header>h1{Path of Light Yoga Studio} -->
+      <header>
+        <h1><a href="index.html">Pacific Trails Resort</a></h1>
+      </header>
+      <!-- nav>ul>li*4>a -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="yurt.html">Yurts</a></li>
+          <li><a href="activities.html">Activity</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Reservations at Pacific Trails</h2>
+        <h3 style="border: 5px solid green">Contact Us Today!</h3>
+        <p style="border: 5px solid red">
+          Required fields are marked with an aesterisk *
+        </p>
+        <!-- <h3 style="margin-top: -20px">Contact Us Today!</h3>
+        <p style="margin-left: -930px; margin-top: -1px">
+          Required fields are marked with an aesterisk *
+        </p> -->
+        <div>
+          <form
+            action="https://webdevbasics.net/scripts/pacific.php"
+            method="post"
+          >
+            <!-- <div style="margin-left: -464px; margin-top: 30px"> -->
+            <label for="fName">*First Name: </label>
+            <input type="text" id="fName" name="myFName" required="required" />
+            <label for="lName">*Last Name: </label>
+            <input type="text" id="lName" name="myLName" required="required" />
+            <label for="email">*Email: </label>
+            <input type="email" id="email" name="myEmail" required="required" />
+            <!-- </div> -->
+            <!-- <div style="margin-left: -462px"> -->
+            <label for="phone">Phone: </label>
+            <input type="tel" id="phone" name="myPhone" maxlength="12" />
+            <label for="myArrival">Arrival Date: </label>
+            <input type="date" id="myArrival" name="myArrival" />
+            <label for="myNights">Nights: </label>
+            <input
+              type="number"
+              id="myNights"
+              name="myNights"
+              min="1"
+              max="14"
+              value="1"
+            />
+            <!-- </div> -->
+            <!-- <div style="margin-left: -464px"> -->
+            <label for="myComments">*Comments: </label>
+            <textarea
+              name="myComments"
+              id="myComments"
+              cols="30"
+              rows="2"
+              required="required"
+            ></textarea>
+            <!-- </div> -->
+            <input type="submit" />
+            <input type="reset" value="Restart" />
+          </form>
+        </div>
+        <!-- <div > -->
+        <p style="border: 5px solid orange">
+          <span class="resort">Pacific Trails Resort</span> 612 Mary ln <br />
+          El Durango, VI 93602 <br />
+          555-867-5309
+        </p>
+        <!-- </div> -->
+      </main>
+      <footer>
+        <p>
+          <span> Copyright &copy; 2021 Path of Light Yoga Studio</span><br />
+          Reese Johnson
+        </p>
+      </footer>
+      <!-- This closes the wrapper -->
+    </div>
+  </body>
+</html>
