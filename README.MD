@@ -12,7 +12,7 @@ AUTHORS: Reese Johnson
 USER INSTRUCTIONS: Landing page that is ready out of the box
 
 
-![Home Page](resort1)
-![Yurts](resort2)
-![Activity](resort3)
-![About](resort4)
+![Home Page](images/resort1)
+![Yurts](images/resort2)
+![Activity](images/resort3)
+![About](images/resort4)
