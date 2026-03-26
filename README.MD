@@ -15,4 +15,4 @@ USER INSTRUCTIONS: Landing page that is ready out of the box
 ![Home Page](images/resort1.png)
 ![Yurts](images/resort2.png)
 ![Activity](images/resort3.png)
-![About](resort4.png)
+![About](images/resort4.png)
